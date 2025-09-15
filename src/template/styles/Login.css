@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.Main-Container{
+    padding: 4px;
+    border-radius: 4px;
+    display: flex;
+    width: 70%;
+    height: 60%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+
+@media  screen and (width<768px) {
+    .Main-Container{
+         width: 90%;
+        
+    
+    }
+    
+}
+
+
+
+@media screen and (width<560px){
+    .left-img-conatiner{
+        display: none;
+        width: 0%;
+       
+    }
+
+
+    .right-container form{
+        height: fit;
+       
+      
+        gap: 50px;
+        
+    }
+
+    .Main-Container{
+       width: 96%;
+       
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-container{
+
+       padding: 20px;
+        min-width: 100%;
+        height: 100%;
+    }
+    
+}
+
+.left-img-conatiner{
+    width: 50%;
+    height: 100%;
+}
+
+.right-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+}
+
+.left-img-conatiner img{
+    border-radius: 2px;
+    object-fit: cover;
+    size: 100%;
+}
+
+
+
+
+.right-container form{
+
+    gap: 20px;
+     width: 90%;    
+     height: fit;
+     
+    
+    display: flex;
+    flex-direction: column;
+}
+input{
+    
+    outline:  none;
+    border: 1px solid rgba(0, 0, 255, 0.426);
+    border-radius: 2px;
+    padding: 4px 10px;
+    width: 100%;
+    height: 40px;
+}
+
+.login-button{
+    background-color: rgba(0, 0, 255, 0.526);
+    padding: 8px 10px;
+    outline: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.login-button:hover{
+    background-color: rgba(0, 0, 255, 0.726) ;
+
+}
+
+
+body{
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    max-width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
